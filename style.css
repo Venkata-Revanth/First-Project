@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration-line: none;
+    font-size: 18px;
+}
+.p:hover{
+    background-color: rgb(177, 177, 172);
+}
+nav{
+    display: inline-block;
+    width:100%;
+    position: fixed;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    border: ivory;
+    z-index: 10;
+}
+.left{
+    display: inline-block;
+    width: 20%;
+    text-align: left;
+    padding-left: 25px;
+}
+.right{
+    display: inline-block;
+    width: 79%;
+    text-align: right;
+}
+.p{
+    padding-left:36px;
+    padding-right: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.image{
+    background-image: url(image/bg-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    top: 50px;
+    z-index: -1;
+    height: 100vh;
+}
+.image1{
+    position: relative;
+    top: 342px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+a.right:hover{
+ background-color: lightslategray;
+}
+.row{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    padding-left: 30px;
+    padding: 30px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.images{
+    position: relative;
+}
+section.images{
+    border-top: rgb(66, 23, 23) 10px;
+}
+.imag{
+    width: 100%;
+}
+.re{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+#about{
+    padding: 30px;
+    font-size: 25px;
+}
+.ab{
+    font-size: 18px;
+    padding-left: 30px;
+    margin-top: 20px;
+}
+.intro{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-left: 30px;
+    padding: 30px;
+    padding-top: 10px;
+}
+.col img{
+    width: 100%;
+}
+.name{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+.job{
+    padding-bottom: 15px;
+    padding-top: 10px;
+    color: rgb(102, 116, 116);
+    font-size: 18px;
+}
+.gh{
+    font-size: 19px;
+    padding-bottom: 20px;
+}
+.col a{
+    padding-left: 40%;
+    padding-right: 40%;
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col a:hover{
+    background-color: rgb(116, 126, 126);
+}
+#contact{
+    padding-left: 30px;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.con{
+    font-size: 18px;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+.input{
+    width: 98%;
+    font-size: 16px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.mes{
+    margin: 30px;
+    margin-top: 50px;
+    position: relative;
+    top: 5vh;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.city{
+    position: relative;
+    top: 10vh;
+    padding: 30px;
+}
+.city img{
+    width: 100%;
+}
+.develop{
+    position: relative;
+    top: 8vh;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+    text-align: center;
+}
