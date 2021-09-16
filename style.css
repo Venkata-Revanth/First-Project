@@ -172,6 +172,7 @@ section.images{
     margin-top: 20px;
     background-color: black;
     color: white;
+    text-shadow: 1px 1px 5px #fff;;
     font-size: 25px;
     padding: 25px;
     text-align: center;
